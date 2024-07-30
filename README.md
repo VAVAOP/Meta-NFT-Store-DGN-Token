@@ -38,5 +38,67 @@ Finally You Need To Setup Your React Dependencies For Your Front End You Can Use
 ````
 npx harhat compile
 ````
-* After Compilation Has Been Succesful
+* After Compilation Has Been Succesfully You Need To Deploy It To Fuji Network
+* Before That Add Your Contact.json File Path To The Deploy Script And Deploy It USing Command:
+````
+ npx hardhat run scripts/deploy.cjs --network fuji
+````
+*After That We Need To Verify The Contract For That Run The Command with Your Token ADdRess That You Get While You dEploed:
+````
+npx hardhat verify --network fuji <YOUR TOKEN CONTRACT>
+````
+* Deploy The NFt Contract In The Same Manner
+* Next You Need To Mint Token To The Address That You Like
+* Remember Only Owner Can Call mint Function
+* So PAste Your Contract Address And Wallet Address To Mint Script
+* Make Sure To Check The Name Of the mint fn is same then Enter The Amount of Token That You Wanna mint And Then Run Command:
+````
+ npx hardhat run scripts/mint.cjs --network fuji
+````
+* Finally We need To Launch Our Frontend To Local Host:
+* For That Paste Your Token And NFT Contract Address To App.jsx in src Folder Also Paste the Wallet Address Of Owner
+* Then run The Command:
+ ````
+npm run dev
+````
+This Will Host Your Frontend To LocalServer:[http://localhost:5173/]
+## Connect Wallet To The Page
+*In Order To connect Wallet to Your Web3 Page You Need To Have A Wallet At First place (MetaMask Wallet Is Required)
+*For Other Details Of Net Work Follow Below Info
+````
+Name:Avalanche Fuji C-Chain
+RPC URL: https://api.avax-test.network/ext/bc/C/rpc
+Chain ID:43113
+Currency Symbol:AVAX
+Explorer: https://testnet.snowtrace.io/
+````
+## INTERACT With FrontENd
+*After That You Will Taken To MetaStore !!!!!
+*Were You Can See You Token Balance And NFT Balance
+*you Will Have The Token That You Minted To Your Account As balance
+*From There You Can Call TRANSFER FUNCTION,BURN FUNCTION For Both Token And NFT!!
+*And You Can See The NFT Store From Were You CAn Exchange Your Token For NFT
+*When you Redeem You Need To Sign In Two Transcation One For Transfering Token To owners Account And Other For Minting NFT To Users Account!!!!
+* You Can Track Your Transaction in [SnowTrace](https://testnet.snowtrace.io/) By Pasting Your Contract ADRESSES
+## Explore Your Creativity
+*Ofcourse This Is Just And Basic Template That You Can Play With You Can Add Different Functions,Images,Button And Bring Your Creativity To Life*
+## Help
+*There Are Many Chances We You Encounter Error Either You Can Google is As Most Of The Errors Are Solved Before There OR
+ Feel Free To Contact Me On My Gmail For Futher Clarification About The Project:
+````
+iamoneofthechoosen1@gmail.com
+````
+
+## Authors
+
+Dabi 
+[@Dabi](iamoneofthechoosen1@gmial.com)
+
+
+## License
+
+This project is licensed under the [Dabi] License - see the LICENSE.md file for details
+
+
+
 

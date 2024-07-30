@@ -4,7 +4,7 @@ This Is A Project in Which We Develop FrontEnd Of And NFT(ERC721A) Redeeming Sto
 * HardHat
 * Solidity
 * React
-[](MetaStore.jpg)
+![](MetaStore.jpg)
 ## Description
 This Project Include :
 * Deploying Two Contracts One Is ERC20 DGN Token Contract And ERC721A Contract For NFT
@@ -76,7 +76,7 @@ Chain ID:43113
 Currency Symbol:AVAX
 Explorer: https://testnet.snowtrace.io/
 ````
-[](NFTStore.jpg)
+![](NFTStore.jpg)
 ## INTERACT With FrontENd
 * After That You Will Taken To MetaStore !!!!!
 * Were You Can See You Token Balance And NFT Balance

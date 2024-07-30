@@ -24,3 +24,19 @@ This Project Include :
 * Able To call The Wallet And Connect To Metamask
 * AVALANCHE FUJI NETWORK Will Be Using To Deploy The Contract
 * Front End Will Be Hosting In Local Server Of Your Enviornment
+## Getting Started
+The Token Is Written In Solidity And ERC20 Templates And More Details Can Be obtained From OpenZeppelin libraries [here](https://openzeppelin.com/contracts/)
+And You Can Build Your on Token Contract From Scratch By Importing ERC20 Standards From This [page](@openzeppelin/contracts@5.0.1/token/ERC20/ERC20.sol)
+This Project Just Shows A Simple Version Of token Contract In Solidity With ERC20 Standards It Doesn't Means Final Output It Needs To Be Further Developer For Interacting With Deapps And Deploy In Main Net .You Can Develop You NFT Contract By Importing The Standard  Of ERC721A From [Here](https://github.com/chiru-labs/ERC721A)
+Finally You Need To Setup Your React Dependencies For Your Front End You Can Use React TEMPLATE Specially Developed For Building Dapps From [Here](https://create-react-app.dev/) And Also Get A Quick Guide On Writing And Deploying Solidity Contract Into Fuji Network And Interacting With Contract Using Forntend Developed Using React JS From [Quicknode](https://www.quicknode.com/guides/other-chains/avalanche/how-to-create-a-dapp-on-avalanches-fuji-testnet-with-quicknode)
+* After You Guys Setuped Your Token And NFT Contract Now Delpoy It In Fuji Network For THat You Need Test Tokens InFuji NetWork .You Can Get Test Faucet For Free From [Here](https://faucet.avax-test.network/)(Upto 2 AVAX)By Joinig Their Guild
+* All The Contracts And Front End Script Has Been Provided With The Project So Feel Free To Use Them As Template Or As Reference Study Material
+* Dont Forget to Add Your Private Key In env File And Rename That File To ".env"
+* After That You Guys Are Good To Deploy Your Contracts To Fuji TestNetWork
+## Executing Programme
+*First We Need To Compile The Token And Nft Contract For That Type This Command On Your Terminal
+````
+npx harhat compile
+````
+* After Compilation Has Been Succesful
+
